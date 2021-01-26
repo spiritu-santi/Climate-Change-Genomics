@@ -1,0 +1,18 @@
+//Priors and rules files 
+// *********************
+
+[PARAMETERS]
+//#isInt? #names #dist. #min #max
+//all N are in number of haploid individuals
+1 POP1 logunif 100 60000 output
+1 POP2 logunif 100 60000 output
+0 MIG12 logunif 0.0001 0.5 output
+0 MIG21 logunif 0.0001 0.5 output
+1 TDIV logunif 1000 200000 output
+0 RES logunif 1e-3 100 output
+
+[RULES]
+
+[COMPLEX PARAMETERS]
+
+

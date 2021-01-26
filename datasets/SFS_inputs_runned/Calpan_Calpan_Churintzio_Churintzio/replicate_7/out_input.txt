@@ -1,0 +1,1472 @@
+fastsimcoal was invoked with the following command line arguments:
+./fs -t input.tpl -n 100000 -L 40 -M 0.001 -e input.est –q --removeZeroSFS --core 20 -m 
+Reading parameter settings file input.est...
+done reading parameter settings file!
+
+Random generator seed : 28561
+
+Deme sizes
+Deme 0	1189
+Deme 1	4252
+
+
+Sample sizes
+Deme 0	12
+Deme 1	12
+
+Sample ages
+Deme 0	0
+Deme 1	0
+
+Growth rates
+Deme 0	0
+Deme 1	0
+
+
+Migration matrix 0	(note that migration rates have been pre-multiplied by 1e+06n
+ 0.0000000 126.0968969 
+242.6747574  0.0000000 
+
+
+Migration matrix 1	(note that migration rates have been pre-multiplied by 1000000.0000000n
+ 0.0000000  0.0000000 
+ 0.0000000  0.0000000 
+
+
+Historical events
+Event 0
+
+#Time             : 4719
+#Source           : 0
+#Sink             : 1
+#Migrants         : 1.0000000
+#New size         : 0.0633328
+#New growth rate  : 0.0000000
+#New migr. matrix : 1
+
+
+
+Number of independent loci to simulate : 1
+with the same chromosomal structure
+
+Number of linkage blocks to simulate in structure 1: 1
+Data type: FREQ   :  recombination and mutation rates
+0.0000000000   0.0000000250   
+   Output expected MAF spectrum
+   Do not output expected DAF spectrum
+
+No population growth detected in input file
+
+Estimating model parameters using 12 batches and 1 thread
+
+Estimation of parameters by conditional maximization via Brent algorithm (initial lhood = -65097.1943893228)
+
+Initial parameters:
+1189	4252	2.42675e-04	1.26097e-04	4719	0.0633328	lhood=-65097.1943893228
+
+
+Current parameters:
+1189	4252	2.42675e-04	1.26097e-04	4719	0.0633328
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 2680.0000000 (lhood = -64122.7918285)
+
+Current parameters:
+2680	4252	2.42675e-04	1.26097e-04	4719	0.0633328	(lhood=-64122.7918285)
+
+Brent minimization result: POP2 = 1855.0000000 (lhood = -63400.9890075)
+
+Current parameters:
+2680	1855	2.42675e-04	1.26097e-04	4719	0.0633328	(lhood=-63400.9890075)
+
+Brent minimization result: MIG12 = 0.0004388 (lhood = -63123.0554918)
+
+Current parameters:
+2680	1855	4.38818e-04	1.26097e-04	4719	0.0633328	(lhood=-63123.0554918)
+
+Brent minimization result: MIG21 = 0.0002726 (lhood = -62939.4249287)
+
+Current parameters:
+2680	1855	4.38818e-04	2.72634e-04	4719	0.0633328	(lhood=-62939.4249287)
+
+Brent minimization result: TDIV = 31985.0000000 (lhood = -62062.3383516)
+
+Current parameters:
+2680	1855	4.38818e-04	2.72634e-04	31985	0.0633328	(lhood=-62062.3383516)
+
+Brent minimization result: RES = 0.8028463 (lhood = -62062.9351885)
+
+Current parameters:
+2680	1855	4.38818e-04	2.72634e-04	31985	0.8028463	(lhood=-62062.9351885)
+
+
+Iter 1	Curr best params:	2680	1855	4.38818e-04	2.72634e-04	31985	0.0633328	lhood=-62062.3383516
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 2476.0000000 (lhood = -62070.2503805)
+
+Current parameters:
+2476	1855	4.38818e-04	2.72634e-04	31985	0.8028463	(lhood=-62070.2503805)
+
+Brent minimization result: POP2 = 1377.0000000 (lhood = -62007.2957298)
+
+Current parameters:
+2476	1377	4.38818e-04	2.72634e-04	31985	0.8028463	(lhood=-62007.2957298)
+
+Brent minimization result: MIG12 = 0.0004741 (lhood = -62008.2000222)
+
+Current parameters:
+2476	1377	4.74091e-04	2.72634e-04	31985	0.8028463	(lhood=-62008.2000222)
+
+Brent minimization result: MIG21 = 0.0002512 (lhood = -62014.9327398)
+
+Current parameters:
+2476	1377	4.74091e-04	2.51152e-04	31985	0.8028463	(lhood=-62014.9327398)
+
+Brent minimization result: TDIV = 99300.0000000 (lhood = -62009.4534968)
+
+Current parameters:
+2476	1377	4.74091e-04	2.51152e-04	99300	0.8028463	(lhood=-62009.4534968)
+
+Brent minimization result: RES = 0.1655548 (lhood = -62003.9373781)
+
+Current parameters:
+2476	1377	4.74091e-04	2.51152e-04	99300	0.1655548	(lhood=-62003.9373781)
+
+
+Iter 2	Curr best params:	2476	1377	4.74091e-04	2.51152e-04	99300	0.1655548	lhood=-62003.9373781
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 2475.0000000 (lhood = -62010.1639370)
+
+Current parameters:
+2475	1377	4.74091e-04	2.51152e-04	99300	0.1655548	(lhood=-62010.1639370)
+
+Brent minimization result: POP2 = 1376.0000000 (lhood = -62002.1333104)
+
+Current parameters:
+2475	1376	4.74091e-04	2.51152e-04	99300	0.1655548	(lhood=-62002.1333104)
+
+Brent minimization result: MIG12 = 0.0004741 (lhood = -62013.9558254)
+
+Current parameters:
+2475	1376	4.74091e-04	2.51152e-04	99300	0.1655548	(lhood=-62013.9558254)
+
+Brent minimization result: MIG21 = 0.0002512 (lhood = -62015.5146421)
+
+Current parameters:
+2475	1376	4.74091e-04	2.51152e-04	99300	0.1655548	(lhood=-62015.5146421)
+
+Brent minimization result: TDIV = 111408.0000000 (lhood = -62009.8872423)
+
+Current parameters:
+2475	1376	4.74091e-04	2.51152e-04	111408	0.1655548	(lhood=-62009.8872423)
+
+Brent minimization result: RES = 0.0765689 (lhood = -62008.0513468)
+
+Current parameters:
+2475	1376	4.74091e-04	2.51152e-04	111408	0.0765689	(lhood=-62008.0513468)
+
+
+Iter 3	Curr best params:	2475	1376	4.74091e-04	2.51152e-04	99300	0.1655548	lhood=-62002.1333104
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 2676.0000000 (lhood = -62009.1975635)
+
+Current parameters:
+2676	1376	4.74091e-04	2.51152e-04	111408	0.0765689	(lhood=-62009.1975635)
+
+Brent minimization result: POP2 = 1375.0000000 (lhood = -62013.3691424)
+
+Current parameters:
+2676	1375	4.74091e-04	2.51152e-04	111408	0.0765689	(lhood=-62013.3691424)
+
+Brent minimization result: MIG12 = 0.0004392 (lhood = -62017.9395515)
+
+Current parameters:
+2676	1375	4.39158e-04	2.51152e-04	111408	0.0765689	(lhood=-62017.9395515)
+
+Brent minimization result: MIG21 = 0.0002729 (lhood = -62011.0242839)
+
+Current parameters:
+2676	1375	4.39158e-04	2.72858e-04	111408	0.0765689	(lhood=-62011.0242839)
+
+Brent minimization result: TDIV = 111408.0000000 (lhood = -62012.1819949)
+
+Current parameters:
+2676	1375	4.39158e-04	2.72858e-04	111408	0.0765689	(lhood=-62012.1819949)
+
+Brent minimization result: RES = 0.0765689 (lhood = -62016.2071059)
+
+Current parameters:
+2676	1375	4.39158e-04	2.72858e-04	111408	0.0765689	(lhood=-62016.2071059)
+
+
+Iter 4	Curr best params:	2475	1376	4.74091e-04	2.51152e-04	99300	0.1655548	lhood=-62002.1333104
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 2355.0000000 (lhood = -62007.2863423)
+
+Current parameters:
+2355	1375	4.39158e-04	2.72858e-04	111408	0.0765689	(lhood=-62007.2863423)
+
+Brent minimization result: POP2 = 1478.0000000 (lhood = -62007.3245955)
+
+Current parameters:
+2355	1478	4.39158e-04	2.72858e-04	111408	0.0765689	(lhood=-62007.3245955)
+
+Brent minimization result: MIG12 = 0.0004065 (lhood = -62007.0040508)
+
+Current parameters:
+2355	1478	4.06487e-04	2.72858e-04	111408	0.0765689	(lhood=-62007.0040508)
+
+Brent minimization result: MIG21 = 0.0002729 (lhood = -62007.5809392)
+
+Current parameters:
+2355	1478	4.06487e-04	2.72858e-04	111408	0.0765689	(lhood=-62007.5809392)
+
+Brent minimization result: TDIV = 30832.0000000 (lhood = -61999.9011246)
+
+Current parameters:
+2355	1478	4.06487e-04	2.72858e-04	30832	0.0765689	(lhood=-61999.9011246)
+
+Brent minimization result: RES = 1.2857688 (lhood = -62002.2561167)
+
+Current parameters:
+2355	1478	4.06487e-04	2.72858e-04	30832	1.2857688	(lhood=-62002.2561167)
+
+
+Iter 5	Curr best params:	2355	1478	4.06487e-04	2.72858e-04	30832	0.0765689	lhood=-61999.9011246
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 2354.0000000 (lhood = -62002.6152567)
+
+Current parameters:
+2354	1478	4.06487e-04	2.72858e-04	30832	1.2857688	(lhood=-62002.6152567)
+
+Brent minimization result: POP2 = 1589.0000000 (lhood = -62005.2568500)
+
+Current parameters:
+2354	1589	4.06487e-04	2.72858e-04	30832	1.2857688	(lhood=-62005.2568500)
+
+Brent minimization result: MIG12 = 0.0004065 (lhood = -62006.6310748)
+
+Current parameters:
+2354	1589	4.06487e-04	2.72858e-04	30832	1.2857688	(lhood=-62006.6310748)
+
+Brent minimization result: MIG21 = 0.0002729 (lhood = -62009.0474811)
+
+Current parameters:
+2354	1589	4.06487e-04	2.72858e-04	30832	1.2857688	(lhood=-62009.0474811)
+
+Brent minimization result: TDIV = 48305.0000000 (lhood = -62004.9528428)
+
+Current parameters:
+2354	1589	4.06487e-04	2.72858e-04	48305	1.2857688	(lhood=-62004.9528428)
+
+Brent minimization result: RES = 52.9822703 (lhood = -62001.5149033)
+
+Current parameters:
+2354	1589	4.06487e-04	2.72858e-04	48305	52.9822703	(lhood=-62001.5149033)
+
+
+Iter 6	Curr best params:	2355	1478	4.06487e-04	2.72858e-04	30832	0.0765689	lhood=-61999.9011246
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 2354.0000000 (lhood = -62002.4584085)
+
+Current parameters:
+2354	1589	4.06487e-04	2.72858e-04	48305	52.9822703	(lhood=-62002.4584085)
+
+Brent minimization result: POP2 = 1588.0000000 (lhood = -62012.8899093)
+
+Current parameters:
+2354	1588	4.06487e-04	2.72858e-04	48305	52.9822703	(lhood=-62012.8899093)
+
+Brent minimization result: MIG12 = 0.0003760 (lhood = -62008.4765783)
+
+Current parameters:
+2354	1588	3.75956e-04	2.72858e-04	48305	52.9822703	(lhood=-62008.4765783)
+
+Brent minimization result: MIG21 = 0.0002729 (lhood = -62003.7882853)
+
+Current parameters:
+2354	1588	3.75956e-04	2.72858e-04	48305	52.9822703	(lhood=-62003.7882853)
+
+Brent minimization result: TDIV = 12055.0000000 (lhood = -61621.7214845)
+
+Current parameters:
+2354	1588	3.75956e-04	2.72858e-04	12055	52.9822703	(lhood=-61621.7214845)
+
+Brent minimization result: RES = 78.4561962 (lhood = -61624.3265446)
+
+Current parameters:
+2354	1588	3.75956e-04	2.72858e-04	12055	78.4561962	(lhood=-61624.3265446)
+
+
+Iter 7	Curr best params:	2354	1588	3.75956e-04	2.72858e-04	12055	52.9822703	lhood=-61621.7214845
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 2178.0000000 (lhood = -61641.9825500)
+
+Current parameters:
+2178	1588	3.75956e-04	2.72858e-04	12055	78.4561962	(lhood=-61641.9825500)
+
+Brent minimization result: POP2 = 1709.0000000 (lhood = -61635.9735576)
+
+Current parameters:
+2178	1709	3.75956e-04	2.72858e-04	12055	78.4561962	(lhood=-61635.9735576)
+
+Brent minimization result: MIG12 = 0.0004068 (lhood = -61651.6327960)
+
+Current parameters:
+2178	1709	4.06804e-04	2.72858e-04	12055	78.4561962	(lhood=-61651.6327960)
+
+Brent minimization result: MIG21 = 0.0002729 (lhood = -61663.5582760)
+
+Current parameters:
+2178	1709	4.06804e-04	2.72858e-04	12055	78.4561962	(lhood=-61663.5582760)
+
+Brent minimization result: TDIV = 12055.0000000 (lhood = -61645.9839444)
+
+Current parameters:
+2178	1709	4.06804e-04	2.72858e-04	12055	78.4561962	(lhood=-61645.9839444)
+
+Brent minimization result: RES = 43.4587905 (lhood = -61665.1218925)
+
+Current parameters:
+2178	1709	4.06804e-04	2.72858e-04	12055	43.4587905	(lhood=-61665.1218925)
+
+
+Iter 8	Curr best params:	2354	1588	3.75956e-04	2.72858e-04	12055	52.9822703	lhood=-61621.7214845
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 2487.0000000 (lhood = -61642.1784018)
+
+Current parameters:
+2487	1709	4.06804e-04	2.72858e-04	12055	43.4587905	(lhood=-61642.1784018)
+
+Brent minimization result: POP2 = 1709.0000000 (lhood = -61634.1181570)
+
+Current parameters:
+2487	1709	4.06804e-04	2.72858e-04	12055	43.4587905	(lhood=-61634.1181570)
+
+Brent minimization result: MIG12 = 0.0004068 (lhood = -61636.3692363)
+
+Current parameters:
+2487	1709	4.06804e-04	2.72858e-04	12055	43.4587905	(lhood=-61636.3692363)
+
+Brent minimization result: MIG21 = 0.0002729 (lhood = -61626.0581269)
+
+Current parameters:
+2487	1709	4.06804e-04	2.72858e-04	12055	43.4587905	(lhood=-61626.0581269)
+
+Brent minimization result: TDIV = 12055.0000000 (lhood = -61632.1232277)
+
+Current parameters:
+2487	1709	4.06804e-04	2.72858e-04	12055	43.4587905	(lhood=-61632.1232277)
+
+Brent minimization result: RES = 58.6634072 (lhood = -61623.1989657)
+
+Current parameters:
+2487	1709	4.06804e-04	2.72858e-04	12055	58.6634072	(lhood=-61623.1989657)
+
+
+Iter 9	Curr best params:	2354	1588	3.75956e-04	2.72858e-04	12055	52.9822703	lhood=-61621.7214845
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 2689.0000000 (lhood = -61630.0671513)
+
+Current parameters:
+2689	1709	4.06804e-04	2.72858e-04	12055	58.6634072	(lhood=-61630.0671513)
+
+Brent minimization result: POP2 = 1586.0000000 (lhood = -61634.8246435)
+
+Current parameters:
+2689	1586	4.06804e-04	2.72858e-04	12055	58.6634072	(lhood=-61634.8246435)
+
+Brent minimization result: MIG12 = 0.0003763 (lhood = -61626.9411149)
+
+Current parameters:
+2689	1586	3.76253e-04	2.72858e-04	12055	58.6634072	(lhood=-61626.9411149)
+
+Brent minimization result: MIG21 = 0.0002400 (lhood = -61638.3753325)
+
+Current parameters:
+2689	1586	3.76253e-04	2.40006e-04	12055	58.6634072	(lhood=-61638.3753325)
+
+Brent minimization result: TDIV = 12055.0000000 (lhood = -61623.9094578)
+
+Current parameters:
+2689	1586	3.76253e-04	2.40006e-04	12055	58.6634072	(lhood=-61623.9094578)
+
+Brent minimization result: RES = 46.4372725 (lhood = -61629.0291759)
+
+Current parameters:
+2689	1586	3.76253e-04	2.40006e-04	12055	46.4372725	(lhood=-61629.0291759)
+
+
+Iter 10	Curr best params:	2354	1588	3.75956e-04	2.72858e-04	12055	52.9822703	lhood=-61621.7214845
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 2689.0000000 (lhood = -61630.7984336)
+
+Current parameters:
+2689	1586	3.76253e-04	2.40006e-04	12055	46.4372725	(lhood=-61630.7984336)
+
+Brent minimization result: POP2 = 1828.0000000 (lhood = -61618.4323514)
+
+Current parameters:
+2689	1828	3.76253e-04	2.40006e-04	12055	46.4372725	(lhood=-61618.4323514)
+
+Brent minimization result: MIG12 = 0.0003763 (lhood = -61616.3423016)
+
+Current parameters:
+2689	1828	3.76253e-04	2.40006e-04	12055	46.4372725	(lhood=-61616.3423016)
+
+Brent minimization result: MIG21 = 0.0002400 (lhood = -61622.4511997)
+
+Current parameters:
+2689	1828	3.76253e-04	2.40006e-04	12055	46.4372725	(lhood=-61622.4511997)
+
+Brent minimization result: TDIV = 9385.0000000 (lhood = -61626.9249548)
+
+Current parameters:
+2689	1828	3.76253e-04	2.40006e-04	9385	46.4372725	(lhood=-61626.9249548)
+
+Brent minimization result: RES = 28.2860248 (lhood = -61626.0478160)
+
+Current parameters:
+2689	1828	3.76253e-04	2.40006e-04	9385	28.2860248	(lhood=-61626.0478160)
+
+
+Iter 11	Curr best params:	2689	1828	3.76253e-04	2.40006e-04	12055	46.4372725	lhood=-61616.3423016
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 2909.0000000 (lhood = -61617.9184123)
+
+Current parameters:
+2909	1828	3.76253e-04	2.40006e-04	9385	28.2860248	(lhood=-61617.9184123)
+
+Brent minimization result: POP2 = 1695.0000000 (lhood = -61623.6126510)
+
+Current parameters:
+2909	1695	3.76253e-04	2.40006e-04	9385	28.2860248	(lhood=-61623.6126510)
+
+Brent minimization result: MIG12 = 0.0003763 (lhood = -61622.9183655)
+
+Current parameters:
+2909	1695	3.76253e-04	2.40006e-04	9385	28.2860248	(lhood=-61622.9183655)
+
+Brent minimization result: MIG21 = 0.0002208 (lhood = -61630.0642445)
+
+Current parameters:
+2909	1695	3.76253e-04	2.20813e-04	9385	28.2860248	(lhood=-61630.0642445)
+
+Brent minimization result: TDIV = 6695.0000000 (lhood = -61624.2099412)
+
+Current parameters:
+2909	1695	3.76253e-04	2.20813e-04	6695	28.2860248	(lhood=-61624.2099412)
+
+Brent minimization result: RES = 27.3562270 (lhood = -61628.5916384)
+
+Current parameters:
+2909	1695	3.76253e-04	2.20813e-04	6695	27.3562270	(lhood=-61628.5916384)
+
+
+Iter 12	Curr best params:	2689	1828	3.76253e-04	2.40006e-04	12055	46.4372725	lhood=-61616.3423016
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 2627.0000000 (lhood = -61631.8227561)
+
+Current parameters:
+2627	1695	3.76253e-04	2.20813e-04	6695	27.3562270	(lhood=-61631.8227561)
+
+Brent minimization result: POP2 = 1825.0000000 (lhood = -61639.9916557)
+
+Current parameters:
+2627	1825	3.76253e-04	2.20813e-04	6695	27.3562270	(lhood=-61639.9916557)
+
+Brent minimization result: MIG12 = 0.0003477 (lhood = -61645.0523756)
+
+Current parameters:
+2627	1825	3.47724e-04	2.20813e-04	6695	27.3562270	(lhood=-61645.0523756)
+
+Brent minimization result: MIG21 = 0.0002472 (lhood = -61627.2269084)
+
+Current parameters:
+2627	1825	3.47724e-04	2.47157e-04	6695	27.3562270	(lhood=-61627.2269084)
+
+Brent minimization result: TDIV = 10989.0000000 (lhood = -61638.1493162)
+
+Current parameters:
+2627	1825	3.47724e-04	2.47157e-04	10989	27.3562270	(lhood=-61638.1493162)
+
+Brent minimization result: RES = 40.8374034 (lhood = -61616.3286788)
+
+Current parameters:
+2627	1825	3.47724e-04	2.47157e-04	10989	40.8374034	(lhood=-61616.3286788)
+
+
+Iter 13	Curr best params:	2627	1825	3.47724e-04	2.47157e-04	10989	40.8374034	lhood=-61616.3286788
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 2842.0000000 (lhood = -61621.1433880)
+
+Current parameters:
+2842	1825	3.47724e-04	2.47157e-04	10989	40.8374034	(lhood=-61621.1433880)
+
+Brent minimization result: POP2 = 1824.0000000 (lhood = -61625.7621859)
+
+Current parameters:
+2842	1824	3.47724e-04	2.47157e-04	10989	40.8374034	(lhood=-61625.7621859)
+
+Brent minimization result: MIG12 = 0.0003477 (lhood = -61622.4087743)
+
+Current parameters:
+2842	1824	3.47724e-04	2.47157e-04	10989	40.8374034	(lhood=-61622.4087743)
+
+Brent minimization result: MIG21 = 0.0002686 (lhood = -61622.7831189)
+
+Current parameters:
+2842	1824	3.47724e-04	2.68561e-04	10989	40.8374034	(lhood=-61622.7831189)
+
+Brent minimization result: TDIV = 10988.0000000 (lhood = -61637.9381933)
+
+Current parameters:
+2842	1824	3.47724e-04	2.68561e-04	10988	40.8374034	(lhood=-61637.9381933)
+
+Brent minimization result: RES = 37.0092525 (lhood = -61624.3815226)
+
+Current parameters:
+2842	1824	3.47724e-04	2.68561e-04	10988	37.0092525	(lhood=-61624.3815226)
+
+
+Iter 14	Curr best params:	2627	1825	3.47724e-04	2.47157e-04	10989	40.8374034	lhood=-61616.3286788
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 2416.0000000 (lhood = -61627.3868877)
+
+Current parameters:
+2416	1824	3.47724e-04	2.68561e-04	10988	37.0092525	(lhood=-61627.3868877)
+
+Brent minimization result: POP2 = 1823.0000000 (lhood = -61630.7039861)
+
+Current parameters:
+2416	1823	3.47724e-04	2.68561e-04	10988	37.0092525	(lhood=-61630.7039861)
+
+Brent minimization result: MIG12 = 0.0003137 (lhood = -61631.8436115)
+
+Current parameters:
+2416	1823	3.13695e-04	2.68561e-04	10988	37.0092525	(lhood=-61631.8436115)
+
+Brent minimization result: MIG21 = 0.0003163 (lhood = -61623.8098558)
+
+Current parameters:
+2416	1823	3.13695e-04	3.16304e-04	10988	37.0092525	(lhood=-61623.8098558)
+
+Brent minimization result: TDIV = 10987.0000000 (lhood = -61628.6322754)
+
+Current parameters:
+2416	1823	3.13695e-04	3.16304e-04	10987	37.0092525	(lhood=-61628.6322754)
+
+Brent minimization result: RES = 56.9886138 (lhood = -61620.8972854)
+
+Current parameters:
+2416	1823	3.13695e-04	3.16304e-04	10987	56.9886138	(lhood=-61620.8972854)
+
+
+Iter 15	Curr best params:	2627	1825	3.47724e-04	2.47157e-04	10989	40.8374034	lhood=-61616.3286788
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 2416.0000000 (lhood = -61622.8369467)
+
+Current parameters:
+2416	1823	3.13695e-04	3.16304e-04	10987	56.9886138	(lhood=-61622.8369467)
+
+Brent minimization result: POP2 = 1822.0000000 (lhood = -61632.0542885)
+
+Current parameters:
+2416	1822	3.13695e-04	3.16304e-04	10987	56.9886138	(lhood=-61632.0542885)
+
+Brent minimization result: MIG12 = 0.0003137 (lhood = -61624.4200461)
+
+Current parameters:
+2416	1822	3.13695e-04	3.16304e-04	10987	56.9886138	(lhood=-61624.4200461)
+
+Brent minimization result: MIG21 = 0.0003428 (lhood = -61637.1217001)
+
+Current parameters:
+2416	1822	3.13695e-04	3.42850e-04	10987	56.9886138	(lhood=-61637.1217001)
+
+Brent minimization result: TDIV = 9199.0000000 (lhood = -61639.8384258)
+
+Current parameters:
+2416	1822	3.13695e-04	3.42850e-04	9199	56.9886138	(lhood=-61639.8384258)
+
+Brent minimization result: RES = 29.7095235 (lhood = -61622.3229319)
+
+Current parameters:
+2416	1822	3.13695e-04	3.42850e-04	9199	29.7095235	(lhood=-61622.3229319)
+
+
+Iter 16	Curr best params:	2627	1825	3.47724e-04	2.47157e-04	10989	40.8374034	lhood=-61616.3286788
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 2125.0000000 (lhood = -61630.6506846)
+
+Current parameters:
+2125	1822	3.13695e-04	3.42850e-04	9199	29.7095235	(lhood=-61630.6506846)
+
+Brent minimization result: POP2 = 1822.0000000 (lhood = -61625.6817996)
+
+Current parameters:
+2125	1822	3.13695e-04	3.42850e-04	9199	29.7095235	(lhood=-61625.6817996)
+
+Brent minimization result: MIG12 = 0.0003400 (lhood = -61628.2306490)
+
+Current parameters:
+2125	1822	3.40050e-04	3.42850e-04	9199	29.7095235	(lhood=-61628.2306490)
+
+Brent minimization result: MIG21 = 0.0003428 (lhood = -61624.6201113)
+
+Current parameters:
+2125	1822	3.40050e-04	3.42850e-04	9199	29.7095235	(lhood=-61624.6201113)
+
+Brent minimization result: TDIV = 8396.0000000 (lhood = -61627.2661637)
+
+Current parameters:
+2125	1822	3.40050e-04	3.42850e-04	8396	29.7095235	(lhood=-61627.2661637)
+
+Brent minimization result: RES = 28.7188291 (lhood = -61628.8949647)
+
+Current parameters:
+2125	1822	3.40050e-04	3.42850e-04	8396	28.7188291	(lhood=-61628.8949647)
+
+
+Iter 17	Curr best params:	2627	1825	3.47724e-04	2.47157e-04	10989	40.8374034	lhood=-61616.3286788
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 2125.0000000 (lhood = -61619.9798610)
+
+Current parameters:
+2125	1822	3.40050e-04	3.42850e-04	8396	28.7188291	(lhood=-61619.9798610)
+
+Brent minimization result: POP2 = 1690.0000000 (lhood = -61620.5546155)
+
+Current parameters:
+2125	1690	3.40050e-04	3.42850e-04	8396	28.7188291	(lhood=-61620.5546155)
+
+Brent minimization result: MIG12 = 0.0003400 (lhood = -61624.7430138)
+
+Current parameters:
+2125	1690	3.40050e-04	3.42850e-04	8396	28.7188291	(lhood=-61624.7430138)
+
+Brent minimization result: MIG21 = 0.0003713 (lhood = -61626.2566916)
+
+Current parameters:
+2125	1690	3.40050e-04	3.71324e-04	8396	28.7188291	(lhood=-61626.2566916)
+
+Brent minimization result: TDIV = 8395.0000000 (lhood = -61622.3398673)
+
+Current parameters:
+2125	1690	3.40050e-04	3.71324e-04	8395	28.7188291	(lhood=-61622.3398673)
+
+Brent minimization result: RES = 35.5165196 (lhood = -61618.1638274)
+
+Current parameters:
+2125	1690	3.40050e-04	3.71324e-04	8395	35.5165196	(lhood=-61618.1638274)
+
+
+Iter 18	Curr best params:	2627	1825	3.47724e-04	2.47157e-04	10989	40.8374034	lhood=-61616.3286788
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 2125.0000000 (lhood = -61622.5131831)
+
+Current parameters:
+2125	1690	3.40050e-04	3.71324e-04	8395	35.5165196	(lhood=-61622.5131831)
+
+Brent minimization result: POP2 = 1689.0000000 (lhood = -61631.8645882)
+
+Current parameters:
+2125	1689	3.40050e-04	3.71324e-04	8395	35.5165196	(lhood=-61631.8645882)
+
+Brent minimization result: MIG12 = 0.0003683 (lhood = -61621.6777128)
+
+Current parameters:
+2125	1689	3.68321e-04	3.71324e-04	8395	35.5165196	(lhood=-61621.6777128)
+
+Brent minimization result: MIG21 = 0.0003176 (lhood = -61637.4685023)
+
+Current parameters:
+2125	1689	3.68321e-04	3.17573e-04	8395	35.5165196	(lhood=-61637.4685023)
+
+Brent minimization result: TDIV = 7120.0000000 (lhood = -61632.1437595)
+
+Current parameters:
+2125	1689	3.68321e-04	3.17573e-04	7120	35.5165196	(lhood=-61632.1437595)
+
+Brent minimization result: RES = 24.5924063 (lhood = -61619.1964095)
+
+Current parameters:
+2125	1689	3.68321e-04	3.17573e-04	7120	24.5924063	(lhood=-61619.1964095)
+
+
+Iter 19	Curr best params:	2627	1825	3.47724e-04	2.47157e-04	10989	40.8374034	lhood=-61616.3286788
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 2320.0000000 (lhood = -61614.4663924)
+
+Current parameters:
+2320	1689	3.68321e-04	3.17573e-04	7120	24.5924063	(lhood=-61614.4663924)
+
+Brent minimization result: POP2 = 1689.0000000 (lhood = -61618.7568923)
+
+Current parameters:
+2320	1689	3.68321e-04	3.17573e-04	7120	24.5924063	(lhood=-61618.7568923)
+
+Brent minimization result: MIG12 = 0.0003986 (lhood = -61620.9690457)
+
+Current parameters:
+2320	1689	3.98625e-04	3.17573e-04	7120	24.5924063	(lhood=-61620.9690457)
+
+Brent minimization result: MIG21 = 0.0003176 (lhood = -61619.7974343)
+
+Current parameters:
+2320	1689	3.98625e-04	3.17573e-04	7120	24.5924063	(lhood=-61619.7974343)
+
+Brent minimization result: TDIV = 7120.0000000 (lhood = -61617.9602140)
+
+Current parameters:
+2320	1689	3.98625e-04	3.17573e-04	7120	24.5924063	(lhood=-61617.9602140)
+
+Brent minimization result: RES = 24.5924063 (lhood = -61626.3353505)
+
+Current parameters:
+2320	1689	3.98625e-04	3.17573e-04	7120	24.5924063	(lhood=-61626.3353505)
+
+
+Iter 20	Curr best params:	2320	1689	3.68321e-04	3.17573e-04	7120	24.5924063	lhood=-61614.4663924
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 2506.0000000 (lhood = -61631.5828550)
+
+Current parameters:
+2506	1689	3.98625e-04	3.17573e-04	7120	24.5924063	(lhood=-61631.5828550)
+
+Brent minimization result: POP2 = 1689.0000000 (lhood = -61634.1698869)
+
+Current parameters:
+2506	1689	3.98625e-04	3.17573e-04	7120	24.5924063	(lhood=-61634.1698869)
+
+Brent minimization result: MIG12 = 0.0003986 (lhood = -61631.3337028)
+
+Current parameters:
+2506	1689	3.98625e-04	3.17573e-04	7120	24.5924063	(lhood=-61631.3337028)
+
+Brent minimization result: MIG21 = 0.0002721 (lhood = -61621.8500236)
+
+Current parameters:
+2506	1689	3.98625e-04	2.72054e-04	7120	24.5924063	(lhood=-61621.8500236)
+
+Brent minimization result: TDIV = 8574.0000000 (lhood = -61619.2951599)
+
+Current parameters:
+2506	1689	3.98625e-04	2.72054e-04	8574	24.5924063	(lhood=-61619.2951599)
+
+Brent minimization result: RES = 30.8526563 (lhood = -61616.7002613)
+
+Current parameters:
+2506	1689	3.98625e-04	2.72054e-04	8574	30.8526563	(lhood=-61616.7002613)
+
+
+Iter 21	Curr best params:	2320	1689	3.68321e-04	3.17573e-04	7120	24.5924063	lhood=-61614.4663924
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 2505.0000000 (lhood = -61613.8133563)
+
+Current parameters:
+2505	1689	3.98625e-04	2.72054e-04	8574	30.8526563	(lhood=-61613.8133563)
+
+Brent minimization result: POP2 = 1689.0000000 (lhood = -61624.7861863)
+
+Current parameters:
+2505	1689	3.98625e-04	2.72054e-04	8574	30.8526563	(lhood=-61624.7861863)
+
+Brent minimization result: MIG12 = 0.0003986 (lhood = -61621.1452988)
+
+Current parameters:
+2505	1689	3.98625e-04	2.72054e-04	8574	30.8526563	(lhood=-61621.1452988)
+
+Brent minimization result: MIG21 = 0.0003025 (lhood = -61624.8390066)
+
+Current parameters:
+2505	1689	3.98625e-04	3.02485e-04	8574	30.8526563	(lhood=-61624.8390066)
+
+Brent minimization result: TDIV = 8574.0000000 (lhood = -61630.8544228)
+
+Current parameters:
+2505	1689	3.98625e-04	3.02485e-04	8574	30.8526563	(lhood=-61630.8544228)
+
+Brent minimization result: RES = 37.0426723 (lhood = -61625.4420045)
+
+Current parameters:
+2505	1689	3.98625e-04	3.02485e-04	8574	37.0426723	(lhood=-61625.4420045)
+
+
+Iter 22	Curr best params:	2505	1689	3.98625e-04	2.72054e-04	8574	30.8526563	lhood=-61613.8133563
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 2505.0000000 (lhood = -61623.4961980)
+
+Current parameters:
+2505	1689	3.98625e-04	3.02485e-04	8574	37.0426723	(lhood=-61623.4961980)
+
+Brent minimization result: POP2 = 1568.0000000 (lhood = -61628.4370303)
+
+Current parameters:
+2505	1568	3.98625e-04	3.02485e-04	8574	37.0426723	(lhood=-61628.4370303)
+
+Brent minimization result: MIG12 = 0.0003986 (lhood = -61633.5366164)
+
+Current parameters:
+2505	1568	3.98625e-04	3.02485e-04	8574	37.0426723	(lhood=-61633.5366164)
+
+Brent minimization result: MIG21 = 0.0003280 (lhood = -61645.1992305)
+
+Current parameters:
+2505	1568	3.98625e-04	3.28018e-04	8574	37.0426723	(lhood=-61645.1992305)
+
+Brent minimization result: TDIV = 7831.0000000 (lhood = -61642.5784443)
+
+Current parameters:
+2505	1568	3.98625e-04	3.28018e-04	7831	37.0426723	(lhood=-61642.5784443)
+
+Brent minimization result: RES = 24.8224434 (lhood = -61640.8779780)
+
+Current parameters:
+2505	1568	3.98625e-04	3.28018e-04	7831	24.8224434	(lhood=-61640.8779780)
+
+
+Iter 23	Curr best params:	2505	1689	3.98625e-04	2.72054e-04	8574	30.8526563	lhood=-61613.8133563
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 2165.0000000 (lhood = -61623.7158518)
+
+Current parameters:
+2165	1568	3.98625e-04	3.28018e-04	7831	24.8224434	(lhood=-61623.7158518)
+
+Brent minimization result: POP2 = 1568.0000000 (lhood = -61626.9326342)
+
+Current parameters:
+2165	1568	3.98625e-04	3.28018e-04	7831	24.8224434	(lhood=-61626.9326342)
+
+Brent minimization result: MIG12 = 0.0004311 (lhood = -61622.3834486)
+
+Current parameters:
+2165	1568	4.31081e-04	3.28018e-04	7831	24.8224434	(lhood=-61622.3834486)
+
+Brent minimization result: MIG21 = 0.0003027 (lhood = -61633.2737040)
+
+Current parameters:
+2165	1568	4.31081e-04	3.02731e-04	7831	24.8224434	(lhood=-61633.2737040)
+
+Brent minimization result: TDIV = 6981.0000000 (lhood = -61621.2749075)
+
+Current parameters:
+2165	1568	4.31081e-04	3.02731e-04	6981	24.8224434	(lhood=-61621.2749075)
+
+Brent minimization result: RES = 23.8870623 (lhood = -61623.8186366)
+
+Current parameters:
+2165	1568	4.31081e-04	3.02731e-04	6981	23.8870623	(lhood=-61623.8186366)
+
+
+Iter 24	Curr best params:	2505	1689	3.98625e-04	2.72054e-04	8574	30.8526563	lhood=-61613.8133563
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 2165.0000000 (lhood = -61615.9300068)
+
+Current parameters:
+2165	1568	4.31081e-04	3.02731e-04	6981	23.8870623	(lhood=-61615.9300068)
+
+Brent minimization result: POP2 = 1354.0000000 (lhood = -61629.6442974)
+
+Current parameters:
+2165	1354	4.31081e-04	3.02731e-04	6981	23.8870623	(lhood=-61629.6442974)
+
+Brent minimization result: MIG12 = 0.0004311 (lhood = -61624.2247055)
+
+Current parameters:
+2165	1354	4.31081e-04	3.02731e-04	6981	23.8870623	(lhood=-61624.2247055)
+
+Brent minimization result: MIG21 = 0.0003283 (lhood = -61635.0832348)
+
+Current parameters:
+2165	1354	4.31081e-04	3.28281e-04	6981	23.8870623	(lhood=-61635.0832348)
+
+Brent minimization result: TDIV = 5451.0000000 (lhood = -61626.6822665)
+
+Current parameters:
+2165	1354	4.31081e-04	3.28281e-04	5451	23.8870623	(lhood=-61626.6822665)
+
+Brent minimization result: RES = 20.5032251 (lhood = -61627.9015403)
+
+Current parameters:
+2165	1354	4.31081e-04	3.28281e-04	5451	20.5032251	(lhood=-61627.9015403)
+
+
+Iter 25	Curr best params:	2505	1689	3.98625e-04	2.72054e-04	8574	30.8526563	lhood=-61613.8133563
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 1981.0000000 (lhood = -61635.4139096)
+
+Current parameters:
+1981	1354	4.31081e-04	3.28281e-04	5451	20.5032251	(lhood=-61635.4139096)
+
+Brent minimization result: POP2 = 1354.0000000 (lhood = -61630.5041135)
+
+Current parameters:
+1981	1354	4.31081e-04	3.28281e-04	5451	20.5032251	(lhood=-61630.5041135)
+
+Brent minimization result: MIG12 = 0.0005132 (lhood = -61622.3203580)
+
+Current parameters:
+1981	1354	5.13204e-04	3.28281e-04	5451	20.5032251	(lhood=-61622.3203580)
+
+Brent minimization result: MIG21 = 0.0003736 (lhood = -61630.4020272)
+
+Current parameters:
+1981	1354	5.13204e-04	3.73617e-04	5451	20.5032251	(lhood=-61630.4020272)
+
+Brent minimization result: TDIV = 3910.0000000 (lhood = -61624.5922798)
+
+Current parameters:
+1981	1354	5.13204e-04	3.73617e-04	3910	20.5032251	(lhood=-61624.5922798)
+
+Brent minimization result: RES = 16.9553720 (lhood = -61628.8234364)
+
+Current parameters:
+1981	1354	5.13204e-04	3.73617e-04	3910	16.9553720	(lhood=-61628.8234364)
+
+
+Iter 26	Curr best params:	2505	1689	3.98625e-04	2.72054e-04	8574	30.8526563	lhood=-61613.8133563
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 1981.0000000 (lhood = -61625.2880892)
+
+Current parameters:
+1981	1354	5.13204e-04	3.73617e-04	3910	16.9553720	(lhood=-61625.2880892)
+
+Brent minimization result: POP2 = 1259.0000000 (lhood = -61621.7959445)
+
+Current parameters:
+1981	1259	5.13204e-04	3.73617e-04	3910	16.9553720	(lhood=-61621.7959445)
+
+Brent minimization result: MIG12 = 0.0004758 (lhood = -61625.3326081)
+
+Current parameters:
+1981	1259	4.75766e-04	3.73617e-04	3910	16.9553720	(lhood=-61625.3326081)
+
+Brent minimization result: MIG21 = 0.0003453 (lhood = -61622.2886471)
+
+Current parameters:
+1981	1259	4.75766e-04	3.45263e-04	3910	16.9553720	(lhood=-61622.2886471)
+
+Brent minimization result: TDIV = 4247.0000000 (lhood = -61627.9586572)
+
+Current parameters:
+1981	1259	4.75766e-04	3.45263e-04	4247	16.9553720	(lhood=-61627.9586572)
+
+Brent minimization result: RES = 16.4821647 (lhood = -61624.8445012)
+
+Current parameters:
+1981	1259	4.75766e-04	3.45263e-04	4247	16.4821647	(lhood=-61624.8445012)
+
+
+Iter 27	Curr best params:	2505	1689	3.98625e-04	2.72054e-04	8574	30.8526563	lhood=-61613.8133563
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 1981.0000000 (lhood = -61629.7043125)
+
+Current parameters:
+1981	1259	4.75766e-04	3.45263e-04	4247	16.4821647	(lhood=-61629.7043125)
+
+Brent minimization result: POP2 = 1352.0000000 (lhood = -61633.3323132)
+
+Current parameters:
+1981	1352	4.75766e-04	3.45263e-04	4247	16.4821647	(lhood=-61633.3323132)
+
+Brent minimization result: MIG12 = 0.0004758 (lhood = -61620.0407528)
+
+Current parameters:
+1981	1352	4.75766e-04	3.45263e-04	4247	16.4821647	(lhood=-61620.0407528)
+
+Brent minimization result: MIG21 = 0.0003739 (lhood = -61621.6967174)
+
+Current parameters:
+1981	1352	4.75766e-04	3.73912e-04	4247	16.4821647	(lhood=-61621.6967174)
+
+Brent minimization result: TDIV = 1379.0000000 (lhood = -61605.8054465)
+
+Current parameters:
+1981	1352	4.75766e-04	3.73912e-04	1379	16.4821647	(lhood=-61605.8054465)
+
+Brent minimization result: RES = 15.1712962 (lhood = -61606.7372754)
+
+Current parameters:
+1981	1352	4.75766e-04	3.73912e-04	1379	15.1712962	(lhood=-61606.7372754)
+
+
+Iter 28	Curr best params:	1981	1352	4.75766e-04	3.73912e-04	1379	16.4821647	lhood=-61605.8054465
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 1836.0000000 (lhood = -61605.4281032)
+
+Current parameters:
+1836	1352	4.75766e-04	3.73912e-04	1379	15.1712962	(lhood=-61605.4281032)
+
+Brent minimization result: POP2 = 1352.0000000 (lhood = -61598.1297027)
+
+Current parameters:
+1836	1352	4.75766e-04	3.73912e-04	1379	15.1712962	(lhood=-61598.1297027)
+
+Brent minimization result: MIG12 = 0.0004080 (lhood = -61599.2700486)
+
+Current parameters:
+1836	1352	4.07952e-04	3.73912e-04	1379	15.1712962	(lhood=-61599.2700486)
+
+Brent minimization result: MIG21 = 0.0003455 (lhood = -61602.1223545)
+
+Current parameters:
+1836	1352	4.07952e-04	3.45539e-04	1379	15.1712962	(lhood=-61602.1223545)
+
+Brent minimization result: TDIV = 1379.0000000 (lhood = -61595.9553276)
+
+Current parameters:
+1836	1352	4.07952e-04	3.45539e-04	1379	15.1712962	(lhood=-61595.9553276)
+
+Brent minimization result: RES = 16.0789182 (lhood = -61598.2365189)
+
+Current parameters:
+1836	1352	4.07952e-04	3.45539e-04	1379	16.0789182	(lhood=-61598.2365189)
+
+
+Iter 29	Curr best params:	1836	1352	4.07952e-04	3.45539e-04	1379	15.1712962	lhood=-61595.9553276
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 1979.0000000 (lhood = -61598.6096408)
+
+Current parameters:
+1979	1352	4.07952e-04	3.45539e-04	1379	16.0789182	(lhood=-61598.6096408)
+
+Brent minimization result: POP2 = 1453.0000000 (lhood = -61600.4582052)
+
+Current parameters:
+1979	1453	4.07952e-04	3.45539e-04	1379	16.0789182	(lhood=-61600.4582052)
+
+Brent minimization result: MIG12 = 0.0004080 (lhood = -61597.4333122)
+
+Current parameters:
+1979	1453	4.07952e-04	3.45539e-04	1379	16.0789182	(lhood=-61597.4333122)
+
+Brent minimization result: MIG21 = 0.0003742 (lhood = -61599.1398073)
+
+Current parameters:
+1979	1453	4.07952e-04	3.74207e-04	1379	16.0789182	(lhood=-61599.1398073)
+
+Brent minimization result: TDIV = 1379.0000000 (lhood = -61606.2811399)
+
+Current parameters:
+1979	1453	4.07952e-04	3.74207e-04	1379	16.0789182	(lhood=-61606.2811399)
+
+Brent minimization result: RES = 16.6903389 (lhood = -61599.3688183)
+
+Current parameters:
+1979	1453	4.07952e-04	3.74207e-04	1379	16.6903389	(lhood=-61599.3688183)
+
+
+Iter 30	Curr best params:	1836	1352	4.07952e-04	3.45539e-04	1379	15.1712962	lhood=-61595.9553276
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 1834.0000000 (lhood = -61597.3204927)
+
+Current parameters:
+1834	1453	4.07952e-04	3.74207e-04	1379	16.6903389	(lhood=-61597.3204927)
+
+Brent minimization result: POP2 = 1350.0000000 (lhood = -61597.1688681)
+
+Current parameters:
+1834	1350	4.07952e-04	3.74207e-04	1379	16.6903389	(lhood=-61597.1688681)
+
+Brent minimization result: MIG12 = 0.0004080 (lhood = -61603.1641183)
+
+Current parameters:
+1834	1350	4.07952e-04	3.74207e-04	1379	16.6903389	(lhood=-61603.1641183)
+
+Brent minimization result: MIG21 = 0.0003742 (lhood = -61595.6108604)
+
+Current parameters:
+1834	1350	4.07952e-04	3.74207e-04	1379	16.6903389	(lhood=-61595.6108604)
+
+Brent minimization result: TDIV = 1379.0000000 (lhood = -61600.3000382)
+
+Current parameters:
+1834	1350	4.07952e-04	3.74207e-04	1379	16.6903389	(lhood=-61600.3000382)
+
+Brent minimization result: RES = 16.6903389 (lhood = -61597.0377948)
+
+Current parameters:
+1834	1350	4.07952e-04	3.74207e-04	1379	16.6903389	(lhood=-61597.0377948)
+
+
+Iter 31	Curr best params:	1834	1350	4.07952e-04	3.74207e-04	1379	16.6903389	lhood=-61595.6108604
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 1977.0000000 (lhood = -61603.3312419)
+
+Current parameters:
+1977	1350	4.07952e-04	3.74207e-04	1379	16.6903389	(lhood=-61603.3312419)
+
+Brent minimization result: POP2 = 1350.0000000 (lhood = -61603.8584033)
+
+Current parameters:
+1977	1350	4.07952e-04	3.74207e-04	1379	16.6903389	(lhood=-61603.8584033)
+
+Brent minimization result: MIG12 = 0.0004765 (lhood = -61600.3563780)
+
+Current parameters:
+1977	1350	4.76494e-04	3.74207e-04	1379	16.6903389	(lhood=-61600.3563780)
+
+Brent minimization result: MIG21 = 0.0003330 (lhood = -61600.8872176)
+
+Current parameters:
+1977	1350	4.76494e-04	3.32991e-04	1379	16.6903389	(lhood=-61600.8872176)
+
+Brent minimization result: TDIV = 1511.0000000 (lhood = -61598.9333665)
+
+Current parameters:
+1977	1350	4.76494e-04	3.32991e-04	1511	16.6903389	(lhood=-61598.9333665)
+
+Brent minimization result: RES = 14.9037510 (lhood = -61594.8738572)
+
+Current parameters:
+1977	1350	4.76494e-04	3.32991e-04	1511	14.9037510	(lhood=-61594.8738572)
+
+
+Iter 32	Curr best params:	1977	1350	4.76494e-04	3.32991e-04	1511	14.9037510	lhood=-61594.8738572
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 1976.0000000 (lhood = -61595.4312572)
+
+Current parameters:
+1976	1350	4.76494e-04	3.32991e-04	1511	14.9037510	(lhood=-61595.4312572)
+
+Brent minimization result: POP2 = 1256.0000000 (lhood = -61595.6089061)
+
+Current parameters:
+1976	1256	4.76494e-04	3.32991e-04	1511	14.9037510	(lhood=-61595.6089061)
+
+Brent minimization result: MIG12 = 0.0005144 (lhood = -61601.4823108)
+
+Current parameters:
+1976	1256	5.14372e-04	3.32991e-04	1511	14.9037510	(lhood=-61601.4823108)
+
+Brent minimization result: MIG21 = 0.0003074 (lhood = -61599.0275957)
+
+Current parameters:
+1976	1256	5.14372e-04	3.07367e-04	1511	14.9037510	(lhood=-61599.0275957)
+
+Brent minimization result: TDIV = 1738.0000000 (lhood = -61603.8535865)
+
+Current parameters:
+1976	1256	5.14372e-04	3.07367e-04	1738	14.9037510	(lhood=-61603.8535865)
+
+Brent minimization result: RES = 14.9037510 (lhood = -61596.6218730)
+
+Current parameters:
+1976	1256	5.14372e-04	3.07367e-04	1738	14.9037510	(lhood=-61596.6218730)
+
+
+Iter 33	Curr best params:	1977	1350	4.76494e-04	3.32991e-04	1511	14.9037510	lhood=-61594.8738572
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 2131.0000000 (lhood = -61600.8002551)
+
+Current parameters:
+2131	1256	5.14372e-04	3.07367e-04	1738	14.9037510	(lhood=-61600.8002551)
+
+Brent minimization result: POP2 = 1256.0000000 (lhood = -61606.4869574)
+
+Current parameters:
+2131	1256	5.14372e-04	3.07367e-04	1738	14.9037510	(lhood=-61606.4869574)
+
+Brent minimization result: MIG12 = 0.0005548 (lhood = -61607.8956674)
+
+Current parameters:
+2131	1256	5.54836e-04	3.07367e-04	1738	14.9037510	(lhood=-61607.8956674)
+
+Brent minimization result: MIG21 = 0.0002574 (lhood = -61607.5506907)
+
+Current parameters:
+2131	1256	5.54836e-04	2.57416e-04	1738	14.9037510	(lhood=-61607.5506907)
+
+Brent minimization result: TDIV = 1737.0000000 (lhood = -61602.3165152)
+
+Current parameters:
+2131	1256	5.54836e-04	2.57416e-04	1737	14.9037510	(lhood=-61602.3165152)
+
+Brent minimization result: RES = 16.2754498 (lhood = -61603.9513080)
+
+Current parameters:
+2131	1256	5.54836e-04	2.57416e-04	1737	16.2754498	(lhood=-61603.9513080)
+
+
+Iter 34	Curr best params:	1977	1350	4.76494e-04	3.32991e-04	1511	14.9037510	lhood=-61594.8738572
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 2131.0000000 (lhood = -61608.1612569)
+
+Current parameters:
+2131	1256	5.54836e-04	2.57416e-04	1737	16.2754498	(lhood=-61608.1612569)
+
+Brent minimization result: POP2 = 1256.0000000 (lhood = -61606.8519544)
+
+Current parameters:
+2131	1256	5.54836e-04	2.57416e-04	1737	16.2754498	(lhood=-61606.8519544)
+
+Brent minimization result: MIG12 = 0.0005548 (lhood = -61607.5109095)
+
+Current parameters:
+2131	1256	5.54836e-04	2.57416e-04	1737	16.2754498	(lhood=-61607.5109095)
+
+Brent minimization result: MIG21 = 0.0002574 (lhood = -61607.3156877)
+
+Current parameters:
+2131	1256	5.54836e-04	2.57416e-04	1737	16.2754498	(lhood=-61607.3156877)
+
+Brent minimization result: TDIV = 1737.0000000 (lhood = -61604.6555454)
+
+Current parameters:
+2131	1256	5.54836e-04	2.57416e-04	1737	16.2754498	(lhood=-61604.6555454)
+
+Brent minimization result: RES = 16.2754498 (lhood = -61604.3100214)
+
+Current parameters:
+2131	1256	5.54836e-04	2.57416e-04	1737	16.2754498	(lhood=-61604.3100214)
+
+
+Iter 35	Curr best params:	1977	1350	4.76494e-04	3.32991e-04	1511	14.9037510	lhood=-61594.8738572
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 2300.0000000 (lhood = -61608.6299988)
+
+Current parameters:
+2300	1256	5.54836e-04	2.57416e-04	1737	16.2754498	(lhood=-61608.6299988)
+
+Brent minimization result: POP2 = 1256.0000000 (lhood = -61607.1136914)
+
+Current parameters:
+2300	1256	5.54836e-04	2.57416e-04	1737	16.2754498	(lhood=-61607.1136914)
+
+Brent minimization result: MIG12 = 0.0005548 (lhood = -61600.9154002)
+
+Current parameters:
+2300	1256	5.54836e-04	2.57416e-04	1737	16.2754498	(lhood=-61600.9154002)
+
+Brent minimization result: MIG21 = 0.0002370 (lhood = -61609.4201461)
+
+Current parameters:
+2300	1256	5.54836e-04	2.36997e-04	1737	16.2754498	(lhood=-61609.4201461)
+
+Brent minimization result: TDIV = 1612.0000000 (lhood = -61603.4327467)
+
+Current parameters:
+2300	1256	5.54836e-04	2.36997e-04	1612	16.2754498	(lhood=-61603.4327467)
+
+Brent minimization result: RES = 16.2754498 (lhood = -61602.5571850)
+
+Current parameters:
+2300	1256	5.54836e-04	2.36997e-04	1612	16.2754498	(lhood=-61602.5571850)
+
+
+Iter 36	Curr best params:	1977	1350	4.76494e-04	3.32991e-04	1511	14.9037510	lhood=-61594.8738572
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 2300.0000000 (lhood = -61612.3004998)
+
+Current parameters:
+2300	1256	5.54836e-04	2.36997e-04	1612	16.2754498	(lhood=-61612.3004998)
+
+Brent minimization result: POP2 = 1256.0000000 (lhood = -61606.3488235)
+
+Current parameters:
+2300	1256	5.54836e-04	2.36997e-04	1612	16.2754498	(lhood=-61606.3488235)
+
+Brent minimization result: MIG12 = 0.0005548 (lhood = -61607.7793323)
+
+Current parameters:
+2300	1256	5.54836e-04	2.36997e-04	1612	16.2754498	(lhood=-61607.7793323)
+
+Brent minimization result: MIG21 = 0.0002370 (lhood = -61606.4408788)
+
+Current parameters:
+2300	1256	5.54836e-04	2.36997e-04	1612	16.2754498	(lhood=-61606.4408788)
+
+Brent minimization result: TDIV = 1611.0000000 (lhood = -61600.6679625)
+
+Current parameters:
+2300	1256	5.54836e-04	2.36997e-04	1611	16.2754498	(lhood=-61600.6679625)
+
+Brent minimization result: RES = 16.7358714 (lhood = -61603.7387472)
+
+Current parameters:
+2300	1256	5.54836e-04	2.36997e-04	1611	16.7358714	(lhood=-61603.7387472)
+
+
+Iter 37	Curr best params:	1977	1350	4.76494e-04	3.32991e-04	1511	14.9037510	lhood=-61594.8738572
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 2128.0000000 (lhood = -61603.5358155)
+
+Current parameters:
+2128	1256	5.54836e-04	2.36997e-04	1611	16.7358714	(lhood=-61603.5358155)
+
+Brent minimization result: POP2 = 1169.0000000 (lhood = -61606.9956123)
+
+Current parameters:
+2128	1169	5.54836e-04	2.36997e-04	1611	16.7358714	(lhood=-61606.9956123)
+
+Brent minimization result: MIG12 = 0.0005148 (lhood = -61617.7183015)
+
+Current parameters:
+2128	1169	5.14761e-04	2.36997e-04	1611	16.7358714	(lhood=-61617.7183015)
+
+Brent minimization result: MIG21 = 0.0003046 (lhood = -61615.1478615)
+
+Current parameters:
+2128	1169	5.14761e-04	3.04570e-04	1611	16.7358714	(lhood=-61615.1478615)
+
+Brent minimization result: TDIV = 2035.0000000 (lhood = -61618.0791964)
+
+Current parameters:
+2128	1169	5.14761e-04	3.04570e-04	2035	16.7358714	(lhood=-61618.0791964)
+
+Brent minimization result: RES = 17.2141194 (lhood = -61619.1183300)
+
+Current parameters:
+2128	1169	5.14761e-04	3.04570e-04	2035	17.2141194	(lhood=-61619.1183300)
+
+
+Iter 38	Curr best params:	1977	1350	4.76494e-04	3.32991e-04	1511	14.9037510	lhood=-61594.8738572
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 1971.0000000 (lhood = -61621.3578864)
+
+Current parameters:
+1971	1169	5.14761e-04	3.04570e-04	2035	17.2141194	(lhood=-61621.3578864)
+
+Brent minimization result: POP2 = 1169.0000000 (lhood = -61618.6899552)
+
+Current parameters:
+1971	1169	5.14761e-04	3.04570e-04	2035	17.2141194	(lhood=-61618.6899552)
+
+Brent minimization result: MIG12 = 0.0005616 (lhood = -61608.3201827)
+
+Current parameters:
+1971	1169	5.61599e-04	3.04570e-04	2035	17.2141194	(lhood=-61608.3201827)
+
+Brent minimization result: MIG21 = 0.0003326 (lhood = -61614.1780048)
+
+Current parameters:
+1971	1169	5.61599e-04	3.32606e-04	2035	17.2141194	(lhood=-61614.1780048)
+
+Brent minimization result: TDIV = 1551.0000000 (lhood = -61607.3054595)
+
+Current parameters:
+1971	1169	5.61599e-04	3.32606e-04	1551	17.2141194	(lhood=-61607.3054595)
+
+Brent minimization result: RES = 14.5795824 (lhood = -61602.6157955)
+
+Current parameters:
+1971	1169	5.61599e-04	3.32606e-04	1551	14.5795824	(lhood=-61602.6157955)
+
+
+Iter 39	Curr best params:	1977	1350	4.76494e-04	3.32991e-04	1511	14.9037510	lhood=-61594.8738572
+
+100000 simulations per lhood estimation
+
+Brent minimization result: POP1 = 1827.0000000 (lhood = -61598.0115688)
+
+Current parameters:
+1827	1169	5.61599e-04	3.32606e-04	1551	14.5795824	(lhood=-61598.0115688)
+
+Brent minimization result: POP2 = 1169.0000000 (lhood = -61602.8483761)
+
+Current parameters:
+1827	1169	5.61599e-04	3.32606e-04	1551	14.5795824	(lhood=-61602.8483761)
+
+Brent minimization result: MIG12 = 0.0005211 (lhood = -61601.5296926)
+
+Current parameters:
+1827	1169	5.21099e-04	3.32606e-04	1551	14.5795824	(lhood=-61601.5296926)
+
+Brent minimization result: MIG21 = 0.0003326 (lhood = -61603.7318739)
+
+Current parameters:
+1827	1169	5.21099e-04	3.32606e-04	1551	14.5795824	(lhood=-61603.7318739)
+
+Brent minimization result: TDIV = 1441.0000000 (lhood = -61599.2816013)
+
+Current parameters:
+1827	1169	5.21099e-04	3.32606e-04	1441	14.5795824	(lhood=-61599.2816013)
+
+Brent minimization result: RES = 16.6853489 (lhood = -61596.3003508)
+
+Current parameters:
+1827	1169	5.21099e-04	3.32606e-04	1441	16.6853489	(lhood=-61596.3003508)
+
+
+Iter 40	Curr best params:	1977	1350	4.76494e-04	3.32991e-04	1511	14.9037510	lhood=-61594.8738572
+
+Program total execution time: 812.514 seconds
+
