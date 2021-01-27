@@ -10,4 +10,4 @@ FASTSIMCOAL2 -> input/
       - download folder: input/year_50 , input/year_70
 
 Note: For the future variables we used CCSM4-rcp45 for 2050, and CCSM4-rcp85 for 2070.  
-Note: These data are now deprecated, users should use WorldClim v.2.1 instead (available at https://www.worldclim.org/data/worldclim21.html).
+Note: WorldClim v.1.4 is deprecated, use WorldClim v.2.1 instead (available at https://www.worldclim.org/data/worldclim21.html).
