@@ -1,3 +1,8 @@
+## Data
+- Here we provide all necessary data to run the code in an 'input' directory.  
+- All other files are created and saved in an 'output' directory.  
+- Given the long runtimes of *fastsimcoal2*, we include an 'SFS_inputs_runned' directory with the results of runs performed on the data. Users have the option to run the *fastsimcoal2* simualtions within the code, which will overwrite the files in this folder.  
+
 ## Intructions to download and compile software needed to run the code:
 MAXENT -> input/  
 FASTSIMCOAL2 -> input/  
