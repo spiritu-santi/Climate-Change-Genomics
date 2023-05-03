@@ -457,7 +457,8 @@ GO_objects <- list(pred_paSNPs=pred_paSNPs, #predicted genetic space in the pres
      offset_ras_50=offset_ras_50, #raster with the offset 
      offset_ras_70=offset_ras_70,
      gfData=gfData, #input data
-     bio_cand=most_cand, #bio climatic variable with the strongest contribution categories=categories,
+     bio_cand=most_cand, #bio climatic variable with the strongest contribution 
+categories=categories,
      turn_score=turn_score) #categories of populations
 # save the outputs from GF for futher analyses
 save(GO_objects,file = "datasets/output/GO_objects.R")
