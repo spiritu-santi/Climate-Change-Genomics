@@ -5,6 +5,7 @@
 #new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 #if(length(new.packages)) install.packages(new.packages)
 library(LEA); library(adegenet); library(maps); library(dismo); library(gplots); library(raster); library(gradientForest); library(gdistance); library(geosphere);library(MaizePal) library(tidyverse);library(ggplot2);library(igraph);library(ggridges);library(UpSetR);library(he re);library(rasterVis)
+library(tidyverse); library(ggridges)
 setwd(here::here())
 # create a raster mask with values set to zero, but we the same extent and resolution as
 the bioclimatic variables uses.
@@ -498,8 +499,8 @@ coords <- species_input$genind$other[,c("longitude","latitude")]
 # set categories and colors
 coords$temperature <- NA # add category
 coords$cols <- NA # add category 
-coords[categories$cold,c("temperature","cols")] <- data.frame("cold",cold_col)
-coords[categories$warm,c("temperature","cols")] <- data.frame("warm",warm_col)
+coords[categories$cold,c("temperature","cols")] <- data.frame("cold",cold_col[2])
+coords[categories$warm,c("temperature","cols")] <- data.frame("warm",warm_col[2])
 #select the q allele. Since adegenet shows genotypes in pairs of alleles, we need to select the odd columns with the function (seq), you need to check that you have two alleles per SNP, if not you would need to extract only the q alleles. See more detailed explanation in section 2-admixture.
 geno <- geno[,seq(2,ncol(geno),2)]
 #create a vector indicating to which populations individuals belong to 
