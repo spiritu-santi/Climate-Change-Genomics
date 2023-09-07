@@ -101,8 +101,8 @@ write.2D.fsc<-function(sfs,f.output)
 
 ########### functions GF ##############
 convert_env_trns <- function(path= "./"){ #set path
-  file_list <- list.files(path = path,pattern = ".asc$|.bil$|.tif$")
-  ras <- paste(path,file_list[1],sep = "")
+  file_list <- list.files(path = path,pattern = ".asc$|.bil$|.tif$",full.names = TRUE)
+  ras <- file_list[1]
   raster_final <- raster(ras)
   temp <- values(raster_final)
   tab_final <- data.frame(cell=1:length(temp))
@@ -218,7 +218,7 @@ useful <- function(ras=NA){
   # restart settings 
   opar <- par()
   # create mask for future models 
-  ras <-  list.files(path = ras,pattern = ".asc$|.bil$|.tif$")[1]
+  ras <-  list.files(path = ras,pattern = ".asc$|.bil$|.tif$",full.names = TRUE)[1]
   mask <- raster(ras)
   mask[mask>0]<- 0  #create a raster mask that will be used to create raster objects in different parts of the script. It is not important which raster layer you use it is only to have the cells of the raster layers.
   return(list(mask=mask,opar=opar,mex=mex))
