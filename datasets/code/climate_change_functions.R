@@ -224,7 +224,7 @@ useful <- function(ras=NA){
   return(list(mask=mask,opar=opar,mex=mex))
 }
 
-u <- useful("datasets/input/present/")
+u <- useful("./")
 mask <- u$mask ; mex <- u$mex ; opar <- u$opar
 
 
