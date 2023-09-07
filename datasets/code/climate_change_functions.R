@@ -101,7 +101,7 @@ write.2D.fsc<-function(sfs,f.output)
 
 ########### functions GF ##############
 convert_env_trns <- function(path= "./"){ #set path
-  file_list <- list.files(path = path,pattern = ".asc$|.bil$")
+  file_list <- list.files(path = path,pattern = ".asc$|.bil$|.tif$")
   ras <- paste(path,file_list[1],sep = "")
   raster_final <- raster(ras)
   temp <- values(raster_final)
@@ -118,7 +118,7 @@ convert_env_trns <- function(path= "./"){ #set path
   }
   
   env_trns <- tab_final
-  names_layers <- sub(pattern = ".asc$|.bil$",replacement = "",x = names(env_trns))
+  names_layers <- sub(pattern = ".asc$|.bil$|.tif$",replacement = "",x = names(env_trns))
   names(env_trns) <-names_layers 
   env_trns <- env_trns[which(!is.na(env_trns$bio_1)),]
   return(env_trns)
@@ -218,7 +218,7 @@ useful <- function(ras=NA){
   # restart settings 
   opar <- par()
   # create mask for future models 
-  ras <-  list.files(path = ras,pattern = ".asc$|.bil$")[1]
+  ras <-  list.files(path = ras,pattern = ".asc$|.bil$|.tif$")[1]
   mask <- raster(ras)
   mask[mask>0]<- 0  #create a raster mask that will be used to create raster objects in different parts of the script. It is not important which raster layer you use it is only to have the cells of the raster layers.
   return(list(mask=mask,opar=opar,mex=mex))
@@ -450,7 +450,7 @@ run.maxent <- function(path_regions = "datasets/input/official/wwf_terr_ecos.shp
 
 projections.maxent <- function(path_proj,ext,select_var,myBiomodEM,
                                year="year_2050",genetic_group, polygonsOfInterest,
-                               coords,patrn="*.asc$|*.bil$",pts_b=5,extended=FALSE,clim_stack=FALSE,plot_pdf=FALSE,nam="extended"){
+                               coords,patrn="*.asc$|*.bil$|.tif$",pts_b=5,extended=FALSE,clim_stack=FALSE,plot_pdf=FALSE,nam="extended"){
   require("biomod2");require("sp");require("raster");require("dplyr");require("rgdal");require("fuzzySim");require("rgeos");require("magrittr");require("tools");require("readr");require("dismo");require("ENMeval")
   if(clim_stack){
     clim <- stack(list.files(path=path_proj, pattern = patrn, full.names=TRUE))
